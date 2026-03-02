@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Rodrigo Rosa — Full Stack Developer especializado em Angular e .NET Core. Florianópolis, Brasil." />
-    <title>Rodrigo Rosa | Full Stack Developer</title>
+        content="Rodrigo Costa da Rosa — Desenvolvedor .NET especializado em C#, .NET Core e microsserviços. Florianópolis, Brasil." />
+    <title>Rodrigo Rosa | Desenvolvedor .NET</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
@@ -17,7 +17,6 @@
 
 <body>
 
-    <!-- DARK MODE TOGGLE (flutuante) -->
     <button class="theme-toggle" id="themeToggle" title="Alternar tema">
         <i class="fas fa-moon" id="themeIcon"></i>
     </button>
@@ -27,15 +26,14 @@
         <!-- ===================== SIDEBAR ===================== -->
         <aside class="sidebar">
 
-            <!-- Perfil -->
             <div class="profile-header">
                 <div class="profile-initials">RR</div>
-                <h1 class="name">Rodrigo Rosa</h1>
-                <p class="role">Full Stack Developer</p>
-                <p class="location"><i class="fas fa-map-marker-alt"></i> Florianópolis, SC</p>
+                <h1 class="name">Rodrigo Costa da Rosa</h1>
+                <p class="role lang-pt">Desenvolvedor .NET</p>
+                <p class="role lang-en" style="display:none">.NET Developer</p>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Florianópolis, SC — Brasil</p>
             </div>
 
-            <!-- Botões de ação -->
             <div class="sidebar-controls">
                 <button class="btn-sidebar" id="langToggle">
                     <i class="fas fa-language"></i>
@@ -47,7 +45,7 @@
 
             <!-- Contato -->
             <div class="sidebar-section">
-                <h3>Contato</h3>
+                <h3><span class="lang-pt">Contato</span><span class="lang-en" style="display:none">Contact</span></h3>
                 <ul class="contact-list">
                     <li>
                         <a href="mailto:rodrigorosa.dev@gmail.com">
@@ -56,9 +54,15 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com/in/rodrigo-rosa-dev" target="_blank">
+                        <a href="tel:+5548991362161">
+                            <i class="fas fa-phone"></i>
+                            +55 48 99136-2161
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/rodrigocrosa/" target="_blank">
                             <i class="fab fa-linkedin"></i>
-                            linkedin.com/in/rodrigo-rosa-dev
+                            linkedin.com/in/rodrigocrosa
                         </a>
                     </li>
                     <li>
@@ -67,63 +71,106 @@
                             github.com/rodrigocros
                         </a>
                     </li>
-                    <li>
-                        <a href="https://rodrigocros.github.io/CV_Dev/" target="_blank">
-                            <i class="fas fa-globe"></i>
-                            Portfólio Online
-                        </a>
-                    </li>
                 </ul>
             </div>
 
             <!-- Skills -->
             <div class="sidebar-section">
-                <h3>Tecnologias</h3>
+                <h3><span class="lang-pt">Tecnologias</span><span class="lang-en"
+                        style="display:none">Technologies</span></h3>
                 <div class="tags-container">
+                    <span class="tag">C#</span>
+                    <span class="tag">.NET Core / .NET 8</span>
+                    <span class="tag">ASP.NET</span>
+                    <span class="tag">REST APIs</span>
+                    <span class="tag">Microsserviços</span>
                     <span class="tag">Angular</span>
                     <span class="tag">TypeScript</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">.NET Core</span>
                     <span class="tag">JavaScript</span>
-                    <span class="tag">HTML5 / CSS3</span>
-                    <span class="tag">RxJS</span>
-                    <span class="tag">NgRx</span>
-                    <span class="tag">ASP.NET</span>
-                    <span class="tag">Entity Framework</span>
                     <span class="tag">SQL Server</span>
                     <span class="tag">PostgreSQL</span>
+                    <span class="tag">Oracle PL/SQL</span>
+                    <span class="tag">Entity Framework</span>
+                    <span class="tag">RabbitMQ</span>
+                    <span class="tag">MassTransit</span>
+                    <span class="tag">AWS SQS / SNS</span>
                     <span class="tag">Docker</span>
-                    <span class="tag">Azure</span>
-                    <span class="tag">Git / GitHub</span>
-                    <span class="tag">REST APIs</span>
-                </div>
-            </div>
-
-            <!-- Formação -->
-            <div class="sidebar-section">
-                <h3>Formação</h3>
-                <div class="education-item">
-                    <span class="degree">Análise e Desenvolvimento de Sistemas</span>
-                    <span class="school">Instituição de Ensino</span>
-                    <span class="year">2020 — 2022</span>
-                </div>
-                <div class="education-item">
-                    <span class="degree">Certificação Angular & .NET</span>
-                    <span class="school">Plataforma Online</span>
-                    <span class="year">2022</span>
+                    <span class="tag">Azure DevOps</span>
+                    <span class="tag">Grafana</span>
+                    <span class="tag">JWT</span>
+                    <span class="tag">Scrum</span>
                 </div>
             </div>
 
             <!-- Idiomas -->
             <div class="sidebar-section">
-                <h3>Idiomas</h3>
+                <h3><span class="lang-pt">Idiomas</span><span class="lang-en" style="display:none">Languages</span></h3>
                 <div class="education-item">
                     <span class="degree">Português</span>
-                    <span class="school">Nativo</span>
+                    <span class="school lang-pt">Nativo</span>
+                    <span class="school lang-en" style="display:none">Native</span>
                 </div>
                 <div class="education-item">
                     <span class="degree">Inglês</span>
-                    <span class="school">Intermediário / Técnico</span>
+                    <span class="school lang-pt">Intermediário / Técnico</span>
+                    <span class="school lang-en" style="display:none">Intermediate / Technical</span>
+                </div>
+                <div class="education-item">
+                    <span class="degree">Espanhol</span>
+                    <span class="school lang-pt">Intermediário</span>
+                    <span class="school lang-en" style="display:none">Intermediate</span>
+                </div>
+            </div>
+
+            <!-- Formação -->
+            <div class="sidebar-section">
+                <h3><span class="lang-pt">Formação</span><span class="lang-en" style="display:none">Education</span>
+                </h3>
+                <div class="education-item">
+                    <span class="degree lang-pt">Análise e Desenvolvimento de Sistemas</span>
+                    <span class="degree lang-en" style="display:none">Systems Analysis and Development</span>
+                    <span class="school">UBEC</span>
+                    <span class="year">2024</span>
+                </div>
+                <div class="education-item">
+                    <span class="degree lang-pt">MBA Gestão de Projetos</span>
+                    <span class="degree lang-en" style="display:none">MBA Project Management</span>
+                    <span class="school">UEA</span>
+                    <span class="year">2016</span>
+                </div>
+                <div class="education-item">
+                    <span class="degree lang-pt">Bacharel em Administração</span>
+                    <span class="degree lang-en" style="display:none">Bachelor in Business Administration</span>
+                    <span class="school">CIESA</span>
+                    <span class="year">2011</span>
+                </div>
+            </div>
+
+            <!-- Certificações -->
+            <div class="sidebar-section">
+                <h3><span class="lang-pt">Certificações</span><span class="lang-en"
+                        style="display:none">Certifications</span></h3>
+                <div class="education-item">
+                    <span class="degree lang-pt">IA com Python</span>
+                    <span class="degree lang-en" style="display:none">AI with Python</span>
+                    <span class="school">UFSC</span>
+                    <span class="year">2023</span>
+                </div>
+                <div class="education-item">
+                    <span class="degree">C# + .NET ASP.NET Core</span>
+                    <span class="school">SESI</span>
+                    <span class="year">2022</span>
+                </div>
+                <div class="education-item">
+                    <span class="degree">TypeScript + Angular CLI</span>
+                    <span class="school">SESI</span>
+                    <span class="year">2022</span>
+                </div>
+                <div class="education-item">
+                    <span class="degree lang-pt">Engenharia de Software</span>
+                    <span class="degree lang-en" style="display:none">Software Engineering</span>
+                    <span class="school">IFSP</span>
+                    <span class="year">2023</span>
                 </div>
             </div>
 
@@ -141,105 +188,29 @@
                 </h2>
                 <div class="justified-text">
                     <div class="lang-pt">
-                        <p>Desenvolvedor Full Stack com experiência no desenvolvimento de aplicações web modernas,
-                            atuando desde o frontend até o backend. Especialista em criar interfaces dinâmicas e
-                            responsivas com <strong>Angular</strong> e APIs robustas com <strong>C# e .NET
-                                Core</strong>, sempre aplicando boas práticas de arquitetura e código limpo.</p>
-                        <p>Experiência com integrações de sistemas, modelagem de banco de dados relacionais e ambientes
-                            em nuvem. Habitado a trabalhar em ciclos ágeis, colaborando com equipes multidisciplinares
-                            para entrega de soluções de alto valor ao negócio.</p>
-                        <p>Baseado em Florianópolis, SC, com disponibilidade para projetos remotos e presenciais.</p>
+                        <p>Desenvolvedor .NET com experiência no design, desenvolvimento e manutenção de APIs RESTful e
+                            microsserviços de alta performance. Especialista em <strong>C# e .NET Core</strong>, com
+                            atuação em sistemas críticos dos setores financeiro e tributário, aplicando boas práticas de
+                            arquitetura, segurança e escalabilidade.</p>
+                        <p>Experiência com mensageria assíncrona (<strong>RabbitMQ, AWS SQS/SNS e MassTransit</strong>),
+                            integração com bancos de dados <strong>SQL Server, PostgreSQL e Oracle PL/SQL</strong>, e
+                            monitoramento de aplicações em produção com <strong>Grafana</strong>. Também atua no
+                            frontend com <strong>Angular e TypeScript</strong>.</p>
+                        <p>Baseado em Florianópolis, trabalhando remotamente com squads ágeis utilizando Scrum e Azure
+                            DevOps.</p>
                     </div>
                     <div class="lang-en" style="display:none">
-                        <p>Full Stack Developer with experience building modern web applications from frontend to
-                            backend. Specialized in creating dynamic and responsive interfaces with
-                            <strong>Angular</strong> and robust APIs with <strong>C# and .NET Core</strong>, always
-                            applying best practices of clean architecture and clean code.</p>
-                        <p>Experienced in system integrations, relational database modeling, and cloud environments.
-                            Comfortable working in agile cycles, collaborating with cross-functional teams to deliver
-                            high-value business solutions.</p>
-                        <p>Based in Florianópolis, SC, available for remote and on-site projects.</p>
+                        <p>.NET Developer experienced in designing, building, and maintaining high-performance RESTful
+                            APIs and microservices. Specialized in <strong>C# and .NET Core</strong>, working on
+                            critical systems in the financial and tax sectors, applying best practices of security,
+                            scalability, and clean architecture.</p>
+                        <p>Experienced with asynchronous messaging (<strong>RabbitMQ, AWS SQS/SNS and
+                                MassTransit</strong>), integration with <strong>SQL Server, PostgreSQL and Oracle
+                                PL/SQL</strong> databases, and production monitoring with <strong>Grafana</strong>. Also
+                            works on the frontend with <strong>Angular and TypeScript</strong>.</p>
+                        <p>Based in Florianópolis, working remotely with agile squads using Scrum and Azure DevOps.</p>
                     </div>
                 </div>
-            </section>
-
-            <!-- ---- Projetos em Destaque ---- -->
-            <section class="section fade-in" id="projetos">
-                <div class="section-header-flex">
-                    <h2 class="section-title">
-                        <i class="fas fa-rocket"></i>
-                        <span class="lang-pt">Projetos em Destaque</span>
-                        <span class="lang-en" style="display:none">Featured Projects</span>
-                    </h2>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3 class="lang-pt">Projeto 1</h3>
-                        <h3 class="lang-en" style="display:none">Project 1</h3>
-                        <span class="badge dev">Em Desenvolvimento</span>
-                    </div>
-                    <span class="project-role lang-pt">Desenvolvedor Full Stack | 2024 - Presente</span>
-                    <span class="project-role lang-en" style="display:none">Full Stack Developer | 2024 - Present</span>
-                    <div class="justified-text">
-                        <div class="lang-pt">
-                            <p>Descreva aqui seu projeto principal — o problema que resolve, sua arquitetura, decisões
-                                técnicas e impacto gerado para os usuários ou negócio.</p>
-                        </div>
-                        <div class="lang-en" style="display:none">
-                            <p>Describe your main project here — the problem it solves, its architecture, technical
-                                decisions, and the impact generated for users or the business.</p>
-                        </div>
-                    </div>
-                    <ul class="dense-list lang-pt">
-                        <li>Arquitetura com separação clara de camadas e aplicação de princípios SOLID</li>
-                        <li>Integração com APIs externas e serviços de autenticação</li>
-                        <li>Deploy contínuo com Azure DevOps e versionamento com GitFlow</li>
-                    </ul>
-                    <ul class="dense-list lang-en" style="display:none">
-                        <li>Architecture with clear layer separation and SOLID principles applied</li>
-                        <li>Integration with external APIs and authentication services</li>
-                        <li>Continuous deployment with Azure DevOps and GitFlow versioning</li>
-                    </ul>
-                    <div class="tech-stack-mini" style="margin-top:16px">
-                        <span>Angular</span><span>C#</span><span>.NET Core</span><span>SQL
-                            Server</span><span>Docker</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3 class="lang-pt">Projeto 2</h3>
-                        <h3 class="lang-en" style="display:none">Project 2</h3>
-                        <span class="badge proto">Protótipo</span>
-                    </div>
-                    <span class="project-role lang-pt">Desenvolvedor | 2023</span>
-                    <span class="project-role lang-en" style="display:none">Developer | 2023</span>
-                    <div class="justified-text">
-                        <div class="lang-pt">
-                            <p>Descreva aqui seu segundo projeto — contexto, desafios enfrentados e soluções
-                                implementadas. Destaque o que o torna único ou tecnicamente interessante.</p>
-                        </div>
-                        <div class="lang-en" style="display:none">
-                            <p>Describe your second project here — context, challenges faced, and solutions implemented.
-                                Highlight what makes it unique or technically interesting.</p>
-                        </div>
-                    </div>
-                    <ul class="dense-list lang-pt">
-                        <li>API RESTful desenvolvida com padrão MVC e Entity Framework</li>
-                        <li>Frontend em Angular com gerenciamento de estado via NgRx</li>
-                        <li>Banco de dados PostgreSQL com migrations versionadas</li>
-                    </ul>
-                    <ul class="dense-list lang-en" style="display:none">
-                        <li>RESTful API developed with MVC pattern and Entity Framework</li>
-                        <li>Angular frontend with state management via NgRx</li>
-                        <li>PostgreSQL database with versioned migrations</li>
-                    </ul>
-                    <div class="tech-stack-mini" style="margin-top:16px">
-                        <span>Angular</span><span>C#</span><span>PostgreSQL</span><span>NgRx</span>
-                    </div>
-                </div>
-
             </section>
 
             <!-- ---- Experiência Profissional ---- -->
@@ -252,63 +223,131 @@
 
                 <div class="timeline">
 
-                    <!-- Job 1 -->
+                    <!-- Job 1: Hyperlocal Bank -->
                     <div class="timeline-item">
                         <div class="timeline-marker"></div>
                         <div class="job-header">
-                            <h3 class="lang-pt">Desenvolvedor Full Stack</h3>
-                            <h3 class="lang-en" style="display:none">Full Stack Developer</h3>
-                            <span class="job-date">2023 — <span class="lang-pt">Presente</span><span class="lang-en"
+                            <h3>Desenvolvedor .NET</h3>
+                            <span class="job-date">dez/2024 — <span class="lang-pt">Atual</span><span class="lang-en"
                                     style="display:none">Present</span></span>
                         </div>
-                        <span class="company-name">Empresa Atual</span>
+                        <span class="company-name">Hyperlocal Bank · PJ · Remoto</span>
                         <div class="lang-pt">
                             <ul class="dense-list">
-                                <li>Desenvolvimento de aplicações web completas com Angular e .NET Core</li>
-                                <li>Arquitetura e manutenção de APIs RESTful de alta disponibilidade</li>
-                                <li>Integração com serviços externos e otimização de performance de queries SQL</li>
-                                <li>Colaboração com squads ágeis utilizando Scrum e Azure DevOps</li>
+                                <li>Design, desenvolvimento e manutenção de APIs RESTful seguindo melhores práticas de
+                                    segurança, versionamento e escalabilidade</li>
+                                <li>Desenvolvimento de microsserviços de alta performance em .NET 8 (backend em C#)</li>
+                                <li>Integração com bancos de dados relacionais (SQL Server, PostgreSQL) e implementação
+                                    de padrões de repositório desacoplados</li>
+                                <li>Utilização de serviços de mensageria como AWS SQS, SNS, RabbitMQ e MassTransit para
+                                    comunicação assíncrona entre sistemas</li>
+                                <li>Criação de testes unitários automatizados para garantir qualidade e confiabilidade
+                                    nas entregas</li>
+                                <li>Participação em code reviews, refatoração e melhoria contínua da arquitetura do
+                                    sistema</li>
+                                <li>Monitoramento e análise de logs e métricas em produção usando Grafana</li>
                             </ul>
                         </div>
                         <div class="lang-en" style="display:none">
                             <ul class="dense-list">
-                                <li>Full-stack development of web applications with Angular and .NET Core</li>
-                                <li>Architecture and maintenance of high-availability RESTful APIs</li>
-                                <li>Integration with external services and SQL query performance optimization</li>
-                                <li>Collaboration with agile squads using Scrum and Azure DevOps</li>
+                                <li>Design, development and maintenance of RESTful APIs following best practices of
+                                    security, versioning and scalability</li>
+                                <li>Development of high-performance microservices in .NET 8 (C# backend)</li>
+                                <li>Integration with relational databases (SQL Server, PostgreSQL) and implementation of
+                                    decoupled repository patterns</li>
+                                <li>Use of messaging services such as AWS SQS, SNS, RabbitMQ and MassTransit for
+                                    asynchronous communication between systems</li>
+                                <li>Creation of automated unit tests to ensure code quality and delivery reliability
+                                </li>
+                                <li>Participation in code reviews, refactoring and continuous architecture improvement
+                                </li>
+                                <li>Monitoring and analysis of production logs and metrics using Grafana</li>
                             </ul>
                         </div>
                         <div class="tech-stack-mini" style="margin-top:16px">
-                            <span>Angular</span><span>C#</span><span>.NET Core</span><span>SQL
-                                Server</span><span>Azure</span>
+                            <span>C#</span><span>.NET 8</span><span>SQL
+                                Server</span><span>PostgreSQL</span><span>RabbitMQ</span><span>AWS
+                                SQS/SNS</span><span>MassTransit</span><span>Grafana</span>
                         </div>
                     </div>
 
-                    <!-- Job 2 -->
+                    <!-- Job 2: Total Desenvolvimento -->
                     <div class="timeline-item">
                         <div class="timeline-marker"></div>
                         <div class="job-header">
-                            <h3 class="lang-pt">Desenvolvedor Frontend</h3>
-                            <h3 class="lang-en" style="display:none">Frontend Developer</h3>
-                            <span class="job-date">2022 — 2023</span>
+                            <h3>Desenvolvedor .NET</h3>
+                            <span class="job-date">dez/2022 — dez/2024</span>
                         </div>
-                        <span class="company-name">Empresa Anterior</span>
+                        <span class="company-name">Total Desenvolvimento de Software · PJ · Remoto</span>
                         <div class="lang-pt">
                             <ul class="dense-list">
-                                <li>Criação e manutenção de SPAs com Angular e TypeScript</li>
-                                <li>Gerenciamento de estado com NgRx e integração com APIs REST</li>
-                                <li>Desenvolvimento de componentes reutilizáveis e design responsivo</li>
+                                <li>Desenvolvimento de APIs RESTful utilizando .NET Core e práticas de microsserviços
+                                </li>
+                                <li>Implementação de soluções em C# + .NET Framework 4.7 (ASP, WebForms) para auditores
+                                    fiscais no Sistema de Administração Tributária do Estado</li>
+                                <li>Gerenciamento e implantação de aplicações em contêineres com Docker e mensageria com
+                                    RabbitMQ</li>
+                                <li>Uso de ORM próprio e Microsoft Entity Framework</li>
+                                <li>Manutenção de banco de dados Oracle PL/SQL com procedures, packages e functions</li>
+                                <li>Utilização de Azure DevOps e metodologia Scrum</li>
                             </ul>
                         </div>
                         <div class="lang-en" style="display:none">
                             <ul class="dense-list">
-                                <li>Creation and maintenance of SPAs with Angular and TypeScript</li>
-                                <li>State management with NgRx and REST API integration</li>
-                                <li>Development of reusable components and responsive design</li>
+                                <li>Development of RESTful APIs using .NET Core and microservices practices</li>
+                                <li>Implementation of solutions in C# + .NET Framework 4.7 (ASP, WebForms) for tax
+                                    auditors in the State Tax Administration System</li>
+                                <li>Container deployment with Docker and messaging with RabbitMQ</li>
+                                <li>Use of proprietary ORM and Microsoft Entity Framework</li>
+                                <li>Maintenance of Oracle PL/SQL databases with procedures, packages and functions</li>
+                                <li>Azure DevOps and Scrum methodology</li>
                             </ul>
                         </div>
                         <div class="tech-stack-mini" style="margin-top:16px">
-                            <span>Angular</span><span>TypeScript</span><span>RxJS</span><span>NgRx</span>
+                            <span>C#</span><span>.NET Core</span><span>.NET 4.7</span><span>Oracle
+                                PL/SQL</span><span>Docker</span><span>RabbitMQ</span><span>Entity
+                                Framework</span><span>Azure DevOps</span>
+                        </div>
+                    </div>
+
+                    <!-- Job 3: Go Labs -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="job-header">
+                            <h3 class="lang-pt">Desenvolvedor de Software</h3>
+                            <h3 class="lang-en" style="display:none">Software Developer</h3>
+                            <span class="job-date">nov/2021 — nov/2022</span>
+                        </div>
+                        <span class="company-name">Go Labs · CLT · Remoto</span>
+                        <div class="lang-pt">
+                            <ul class="dense-list">
+                                <li>Membro de equipe com 20 pessoas, atuando no desenvolvimento de soluções para o setor
+                                    financeiro</li>
+                                <li>Desenvolvimento de REST APIs em C# + .NET com autenticação JWT e documentação
+                                    Swagger</li>
+                                <li>Manutenção e otimização de soluções com ASP.NET Core 6, corrigindo bugs e
+                                    adicionando novas funcionalidades</li>
+                                <li>Manutenção de banco de dados Microsoft SQL Server</li>
+                                <li>Ajustes de interface no frontend com Angular 13, TypeScript, Bootstrap, HTML e CSS
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="lang-en" style="display:none">
+                            <ul class="dense-list">
+                                <li>Member of a 20-person team developing solutions for the financial sector</li>
+                                <li>Development of REST APIs in C# + .NET with JWT authentication and Swagger
+                                    documentation</li>
+                                <li>Maintenance and optimization of ASP.NET Core 6 solutions, fixing bugs and adding new
+                                    features</li>
+                                <li>Maintenance of Microsoft SQL Server databases</li>
+                                <li>Frontend interface adjustments with Angular 13, TypeScript, Bootstrap, HTML and CSS
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack-mini" style="margin-top:16px">
+                            <span>C#</span><span>ASP.NET Core 6</span><span>Angular
+                                13</span><span>TypeScript</span><span>SQL
+                                Server</span><span>JWT</span><span>Swagger</span>
                         </div>
                     </div>
 
