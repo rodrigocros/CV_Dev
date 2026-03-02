@@ -118,8 +118,8 @@ a:hover {
 }
 
 .profile-initials {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   background: linear-gradient(135deg, var(--accent-color), #1d4ed8);
   border-radius: 50%;
   margin: 0 auto 20px;
@@ -130,10 +130,27 @@ a:hover {
   font-weight: 700;
   color: white;
   box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+  overflow: hidden;
+  position: relative;
 }
 
 .dark-mode .profile-initials {
   box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.initials-text {
+  position: relative;
+  z-index: 1;
 }
 
 .name {
